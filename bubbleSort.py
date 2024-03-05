@@ -47,8 +47,9 @@ def bubble_sort(to_sort, comparator=is_greater, reverse=False):
 # -----------------------------------------------------------------------------
 # --------------------TESTING BUBBLE SORT FUNCTIONS----------------------------
 # -----------------------------------------------------------------------------
-
-# words_test = ["bob", "john", "game", "create", "a", ""]
-# print(bubble_sort([2,5,6,7,8,12,4,2.1,-20,5,6,8,89]))
-# print(bubble_sort([2,5,6,7,8,12,4,2,-20,5,6,8,89], reverse=True))
-# print(bubble_sort(words_test, is_longer, True))
+if __name__ == "__main__":
+    words_test = ["bob", "john", "game", "create", "a", ""]
+    print(bubble_sort([2,5,6,7,8,12,4,2.1,-20,5,6,8,89]))
+    print(bubble_sort([2,5,6,7,8,12,4,2,-20,5,6,8,89], reverse=True))
+    print(bubble_sort(words_test, is_longer, True))
+    pass
