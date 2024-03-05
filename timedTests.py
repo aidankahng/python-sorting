@@ -4,7 +4,6 @@ from bubbleSort import bubble_sort_nums
 from insertionSort import insertion_sort_nums
 from mergeSort import merge_sort_nums
 from selectionSort import selection_sort_nums
-import sleepSort
 
 
 if __name__ == "__main__":
