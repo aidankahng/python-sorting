@@ -3,7 +3,9 @@ import random
 from bubbleSort import bubble_sort_nums
 from insertionSort import insertion_sort_nums
 from mergeSort import merge_sort_nums
+from mergedInsertionSort import merged_insertion_sort_nums
 from selectionSort import selection_sort_nums
+from mergedInsertionSort import merged_insertion_sort_nums
 
 
 if __name__ == "__main__":
@@ -33,6 +35,11 @@ if __name__ == "__main__":
     merge_sort_nums(list_to_sort.copy())
     end_time = time.time()
     print(f"Elapsed time for mergeSort:                         \t{end_time - start_time}")
+    # Testing for mergedInsertionSort
+    start_time = time.time()
+    merged_insertion_sort_nums(list_to_sort.copy())
+    end_time = time.time()
+    print(f"Elapsed time for mergedInsertionSort:               \t{end_time - start_time}")
     # Testing for selectionSort
     start_time = time.time()
     selection_sort_nums(list_to_sort.copy())
